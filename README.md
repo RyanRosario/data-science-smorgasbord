@@ -1,13 +1,16 @@
 # Data Science Smorgasbord
 ## Unix Tools - Python - PyData - Career Advice
-## *Statistics 404*
+## *Statistics 404* :neckbeard:
 ## February 28, 2017
+### :palm_tree: Ryan R. Rosario :hibiscus: 
+
+:snake:
 
 Materials from a three-hour lecture I gave to UCLA Statistics 404 (Professional Masters in Applied Statistics) on Unix command line, Python and PyData. These will be routinely updated.
 
 # Raw Data
 
-If you wish to work with the **raw** Reddit comments data, you can download them on a monthly basis from [http://files.pushshift.io/reddit/comments/].
+If you wish to work with the **raw** Reddit comments data, you can download them on a monthly basis from [here](http://files.pushshift.io/reddit/comments/).
 
 As Reddit gets more and more use, the files get larger and larger. As of February 2017, compressed .bz2 files amass upwards of 8GB.
 
@@ -22,3 +25,20 @@ You can concatenate multiple months into one file if you wish, using the cat com
 `cat file_1 file_2 > mybigfile`
 
 Then you can use a tool like [jq](https://stedolan.github.io/jq/) to parse the JSON files without reading it into Python first.
+
+# Processed Data for Lecture
+
+To follow along with the lecture, you don't need to download any raw data. 
+
+The file `political_comments_sorted.tsv` is the file created on slide 60. It can be used for all previous slides as well, but due to space and bandwidth constraints, I only provide one version. The sorted version sorts the file by username.
+
+http://www.bytemining.com/files/datasets/stats404/political_comments_sorted.tsv
+
+The files `goodusers.dat` and `usernames.dat` are intermediate files created on slides 55 and 50 respectively in case you wish to skip the code on those slides.
+
+http://www.bytemining.com/files/datasets/stats404/goodusers.dat
+http://www.bytemining.com/files/datasets/stats404/usernames.dat
+
+**The final dataset that does not contain any bots is in the file `political_comments_clean.tsv`.**
+
+http://www.bytemining.com/files/datasets/stats404/political_comments_clean.tsv
