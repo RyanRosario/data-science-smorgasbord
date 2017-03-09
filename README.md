@@ -1,12 +1,9 @@
 # Data Science Smorgasbord
-## Unix Tools - Python - PyData - Career Advice
 ## *Statistics 404* :neckbeard:
 ## February 28, 2017
 ### :palm_tree: Ryan R. Rosario :hibiscus: 
 
-:snake:
-
-Materials from a three-hour lecture I gave to UCLA Statistics 404 (Professional Masters in Applied Statistics) on Unix command line, Python and PyData. These will be routinely updated.
+Materials from a three-hour lecture I gave to UCLA Statistics 404 (Professional Masters in Applied Statistics) on Unix command line, Python :snake: and PyData. 
 
 # Raw Data
 
@@ -30,15 +27,8 @@ Then you can use a tool like [jq](https://stedolan.github.io/jq/) to parse the J
 
 To follow along with the lecture, you don't need to download any raw data. 
 
-The file `political_comments_sorted.tsv` is the file created on slide 60. It can be used for all previous slides as well, but due to space and bandwidth constraints, I only provide one version. The sorted version sorts the file by username.
+The file [`political_comments_sorted.tsv`](http://www.bytemining.com/files/datasets/stats404/political_comments_sorted.tsv) is the file created on slide 60. It can be used for all previous slides as well, but due to space and bandwidth constraints, I only provide one version. The sorted version sorts the file by username.
 
-http://www.bytemining.com/files/datasets/stats404/political_comments_sorted.tsv
+The files [`goodusers.dat`](http://www.bytemining.com/files/datasets/stats404/goodusers.dat) and [`usernames.dat`](http://www.bytemining.com/files/datasets/stats404/usernames.dat) are intermediate files created on slides 55 and 50 respectively in case you wish to skip the code on those slides.
 
-The files `goodusers.dat` and `usernames.dat` are intermediate files created on slides 55 and 50 respectively in case you wish to skip the code on those slides.
-
-http://www.bytemining.com/files/datasets/stats404/goodusers.dat
-http://www.bytemining.com/files/datasets/stats404/usernames.dat
-
-**The final dataset that does not contain any bots is in the file `political_comments_clean.tsv`.**
-
-http://www.bytemining.com/files/datasets/stats404/political_comments_clean.tsv
+**The final dataset that does not contain any bots is in the file [`political_comments_clean.tsv`](http://www.bytemining.com/files/datasets/stats404/political_comments_clean.tsv).**
